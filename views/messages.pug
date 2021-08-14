@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="static/css/messages.css")
+        title Messages
+    body
+        h2(style="color:red" align="center") Messages
+        table(style='width:50%', border='1' align="center" class="messages")
+            tr
+                th Name
+                th Email
+                th Subject
+                th Message 
+            each val , key in foundData
+                tr
+                    td #{val.name}
+                    td #{val.email}
+                    td #{val.subject}
+                    td #{val.message}
+        h2(style="color:red" align="center") Users List
+        table(style='width:50%', border='1' align="center" class="messages")
+            tr
+                th UserName
+                th Password 
+                th Admin
+            each val , key in userlist
+                tr
+                    td #{val.username}
+                    td #{val.password}
+                    td #{val.admin}

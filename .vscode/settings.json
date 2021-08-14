@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e9a255a4-4438-4ce3-9232-7f388a506b46/resourceGroups/appsvc_linux_centralus3/providers/Microsoft.Web/sites/deepankrx",
+    "appService.deploySubpath": "."
+}
